@@ -1,0 +1,9 @@
+**/__pycache__/
+.idea/
+/Pipfile
+/Pipfile.lock
+/allure-cli/
+/allure-results/
+/geckodriver.log
+logs/
+venv/
