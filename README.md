@@ -1,6 +1,6 @@
 # absolutions
 
-Автотесты для проекта "ЕАЭС"
+Автотесты для проекта "absolutions"
 
 #### Стэк
 - язык программирования - [Python 3.10](https://www.python.org/downloads/)
