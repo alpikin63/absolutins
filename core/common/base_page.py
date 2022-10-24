@@ -70,3 +70,13 @@ class BasePage:
     @allure.step('Принять предупреждение')
     def accept_alert():
         browser.driver.switch_to.alert.accept()
+
+    @staticmethod
+    @allure.step('Скролл к началу страницы')
+    def scroll_to_page_up():
+        browser.driver().execute_script('window.scrollTo(0, 0)')
+
+    @staticmethod
+    @allure.step('Скролл к концу страницы')
+    def scroll_to_page_down():
+        browser.driver().execute_script('window.scrollTo(10000, 10000)')

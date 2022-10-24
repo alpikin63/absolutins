@@ -4,9 +4,10 @@ from core.data.builders.form_data_builder import FormData
 from core.data.page_data import PageData
 from core.data.step_name_data import StepNameData
 from core.pages.base_app_page import BaseAppPage
+from core.pages.custom_elements.calendar import Calendar
 from core.pages.custom_elements.checkbox import Checkbox
 from settings import settings
-from selene.api import s, be, browser, have, command, query
+from selene.api import s, be, have, command
 
 
 class CoronavirusInsurancePolicyPage(BaseAppPage):
@@ -29,17 +30,17 @@ class CoronavirusInsurancePolicyPage(BaseAppPage):
 
         # ввод данных
         self._fio_input = s('.step2 #name')
-        self._birthday_input = s('.step2 #dateBirth')
+        self._birthday_input = Calendar('.step2 #dateBirth')
         self._doc_number_input = s('.step2 #id')
-        self._doc_issue_date_input = s('.step2 #idDate')
+        self._doc_issue_date_input = Calendar('.step2 #idDate')
         self._registration_address_input = s('.step2 #address')
         self._phone_input = s('.step2 #phone')
         self._email_input = s('.step2 #email')
         self._add_person_checkbox = Checkbox('//*[@class ="step2"]//input[@name="addPerson"]/..')
         self._name_insured_input = s('.step2 #nameInsured')
-        self._date_birth_insured_input = s('.step2 #dateBirthInsured')
+        self._date_birth_insured_input = Calendar('.step2 #dateBirthInsured')
         self._id_insured_input = s('.step2 #idInsured')
-        self._id_date_insured_input = s('.step2 #idDateInsured')
+        self._id_date_insured_input = Calendar('.step2 #idDateInsured')
         self._go_to_payment_button = s('//button[text()="Перейти к оплате"]')
 
         if do_open:
@@ -74,7 +75,9 @@ class CoronavirusInsurancePolicyPage(BaseAppPage):
 
     @allure.step('Проверить название текущего шага.')
     def assure_current_step_name(self, value: StepNameData):
-        self._current_step_text.should(have.text(value))
+        self.scroll_to_page_up()
+        with allure.step(f'Текущий активный шаг: {value}'):
+            self._current_step_text.should(have.text(value))
 
     @allure.step('Заполнить поле "ФИО страхователя"')
     def fill_fio(self, value: str):
@@ -85,9 +88,7 @@ class CoronavirusInsurancePolicyPage(BaseAppPage):
     @allure.step('Заполнить поле "Дата рождения страхователя"')
     def fill_birthday(self, value: str):
         if value:
-            with allure.step(f'Ввести значение: {value}'):
-                js_id = self._birthday_input.get(query.attribute('id'))
-                browser.driver.execute_script(f'$("#{js_id}").datepicker("setDate", "{value}")')
+            self._birthday_input.set(value)
 
     @allure.step('Заполнить поле "Серия/номер паспорта страхователя"')
     def fill_doc_number(self, value: str):
@@ -98,9 +99,7 @@ class CoronavirusInsurancePolicyPage(BaseAppPage):
     @allure.step('Заполнить поле "Дата выдачи"')
     def fill_doc_issue_date(self, value: str):
         if value:
-            with allure.step(f'Ввести значение: {value}'):
-                js_id = self._doc_issue_date_input.get(query.attribute('id'))
-                browser.driver.execute_script(f'$("#{js_id}").datepicker("setDate", "{value}")')
+            self._doc_issue_date_input.set(value)
 
     @allure.step('Заполнить поле "Адрес регистрации"')
     def fill_registration_address(self, value: str):
@@ -129,9 +128,7 @@ class CoronavirusInsurancePolicyPage(BaseAppPage):
     @allure.step('Заполнить поле "Дата рождения застрахованного"')
     def fill_date_birth_insured(self, value: str):
         if value:
-            with allure.step(f'Ввести значение: {value}'):
-                js_id = self._date_birth_insured_input.get(query.attribute('id'))
-                browser.driver.execute_script(f'$("#{js_id}").datepicker("setDate", "{value}")')
+            self._date_birth_insured_input.set(value)
 
     @allure.step('Заполнить поле "Серия/номер паспорта застрахованного"')
     def fill_id_insured(self, value: str):
@@ -142,9 +139,7 @@ class CoronavirusInsurancePolicyPage(BaseAppPage):
     @allure.step('Заполнить поле "Дата выдачи" у застрахованного')
     def fill_id_date_insured_input(self, value: str):
         if value:
-            with allure.step(f'Ввести значение: {value}'):
-                js_id = self._id_date_insured_input.get(query.attribute('id'))
-                browser.driver.execute_script(f'$("#{js_id}").datepicker("setDate", "{value}")')
+            self._id_date_insured_input.set(value)
 
     @allure.step('Заполнить форму "Ввод данных"')
     def fill_form_data(self, value: FormData):
