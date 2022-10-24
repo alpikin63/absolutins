@@ -1,0 +1,260 @@
+{
+  "uid" : "e128fbf1ad7af285",
+  "name" : "Чекбокс \"Профессиональная сфера связана с медицинской деятельностью\" выбран. Страховая сумма полиса: 100000",
+  "fullName" : "ui.test_calculate_form.TestCalculateForm#test_open_continue_button_disabled_change_insure_sum",
+  "historyId" : "2130fd29f1db2672342aec51feec0fb1",
+  "time" : {
+    "start" : 1666593000287,
+    "stop" : 1666593005618,
+    "duration" : 5331
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "web_browser",
+    "time" : {
+      "start" : 1666592997124,
+      "stop" : 1666593000286,
+      "duration" : 3162
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1666592950527,
+      "stop" : 1666592950884,
+      "duration" : 357
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1666592950886,
+      "stop" : 1666592950886,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_policy_purchase_form",
+    "time" : {
+      "start" : 1666593000286,
+      "stop" : 1666593000286,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход по адресу: \"https://old.absolutins.ru/kupit-strahovoj-polis/strahovanie-zhizni-i-zdorovya/zashchita-ot-virusa/\"",
+      "time" : {
+        "start" : 1666593000288,
+        "stop" : 1666593004506,
+        "duration" : 4218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбрать страховую сумму полиса.",
+      "time" : {
+        "start" : 1666593004506,
+        "stop" : 1666593005051,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "выбрать сумму: 100000",
+        "time" : {
+          "start" : 1666593004506,
+          "stop" : 1666593005051,
+          "duration" : 545
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "sum_value",
+        "value" : "100000"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Выбрать чекбокс \"Профессиональная сфера связана с медицинской деятельностью\".",
+      "time" : {
+        "start" : 1666593005051,
+        "stop" : 1666593005407,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверить недоступность кнопки \"Продолжить\".",
+      "time" : {
+        "start" : 1666593005407,
+        "stop" : 1666593005617,
+        "duration" : 210
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "edaf17ead9718860",
+      "name" : "log",
+      "source" : "edaf17ead9718860.txt",
+      "type" : "text/plain",
+      "size" : 382
+    }, {
+      "uid" : "dc4bb7737163d4a5",
+      "name" : "stdout",
+      "source" : "dc4bb7737163d4a5.txt",
+      "type" : "text/plain",
+      "size" : 1
+    }, {
+      "uid" : "66255daa952fed2c",
+      "name" : "stderr",
+      "source" : "66255daa952fed2c.txt",
+      "type" : "text/plain",
+      "size" : 271
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "web_browser::0",
+    "time" : {
+      "start" : 1666593005620,
+      "stop" : 1666593011368,
+      "duration" : 5748
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "53827e9aba5094a0",
+      "name" : "failure-screenshot",
+      "source" : "53827e9aba5094a0.png",
+      "type" : "image/png",
+      "size" : 157157
+    }, {
+      "uid" : "a60ab13599447b7e",
+      "name" : "js-console-log",
+      "source" : "a60ab13599447b7e.txt",
+      "type" : "text/plain",
+      "size" : 2789
+    }, {
+      "uid" : "f126775f97199770",
+      "name" : "driver-log",
+      "source" : "f126775f97199770.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Форма покупки полиса"
+  }, {
+    "name" : "subSuite",
+    "value" : "Расчет"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Регрессионное тестирование"
+  }, {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('web_browser')"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GMLT5VV"
+  }, {
+    "name" : "thread",
+    "value" : "22688-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ui.test_calculate_form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regress", "@pytest.mark.usefixtures('web_browser')" ]
+  },
+  "source" : "e128fbf1ad7af285.json",
+  "parameterValues" : [ ]
+}

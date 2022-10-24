@@ -1,0 +1,185 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ui",
+    "children" : [ {
+      "name" : "test_calculate_form",
+      "children" : [ {
+        "name" : "Переход на вкладку ввода данных. Страховая сумма полиса: 500000",
+        "uid" : "db32c3bfbc407761",
+        "parentUid" : "28593cb9f5f0320453a40171675f572c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666592956129,
+          "stop" : 1666592962273,
+          "duration" : 6144
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Чекбокс \"Профессиональная сфера связана с медицинской деятельностью\" выбран. Страховая сумма полиса: 500000",
+        "uid" : "ebd0b8d94b9519ba",
+        "parentUid" : "28593cb9f5f0320453a40171675f572c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666592971880,
+          "stop" : 1666592979360,
+          "duration" : 7480
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку ввода данных. Страховая сумма полиса: 100000",
+        "uid" : "15605235563e34e6",
+        "parentUid" : "28593cb9f5f0320453a40171675f572c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666592986203,
+          "stop" : 1666592991980,
+          "duration" : 5777
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Чекбокс \"Профессиональная сфера связана с медицинской деятельностью\" выбран. Страховая сумма полиса: 100000",
+        "uid" : "e128fbf1ad7af285",
+        "parentUid" : "28593cb9f5f0320453a40171675f572c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666593000287,
+          "stop" : 1666593005618,
+          "duration" : 5331
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Выбраны оба чекбокса. Страховая сумма полиса: 100000",
+        "uid" : "a76fb19ffd92d8ee",
+        "parentUid" : "28593cb9f5f0320453a40171675f572c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666593014312,
+          "stop" : 1666593022666,
+          "duration" : 8354
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Выбраны оба чекбокса. Страховая сумма полиса: 500000",
+        "uid" : "c4116e0f6f1f4dac",
+        "parentUid" : "28593cb9f5f0320453a40171675f572c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666593028478,
+          "stop" : 1666593033954,
+          "duration" : 5476
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28593cb9f5f0320453a40171675f572c"
+    }, {
+      "name" : "test_form_data",
+      "children" : [ {
+        "name" : "Переход на вкладку Оплата. Страхователь является застрахованным. Страховая сумма 500000",
+        "uid" : "1a8b0c63a6c6658c",
+        "parentUid" : "3aac717da7f5b2bfee3245a2a48d5e5a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666593040708,
+          "stop" : 1666593053765,
+          "duration" : 13057
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку Оплата. Страхователь не является застрахованным. Страховая сумма 500000.Застрахованный имеет паспорт",
+        "uid" : "67324a75a5c67b49",
+        "parentUid" : "3aac717da7f5b2bfee3245a2a48d5e5a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666593060417,
+          "stop" : 1666593082426,
+          "duration" : 22009
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку Оплата. Страхователь не является застрахованным. Страховая сумма 500000.Застрахованный не имеет паспорт",
+        "uid" : "53bdae3940d83027",
+        "parentUid" : "3aac717da7f5b2bfee3245a2a48d5e5a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666593090270,
+          "stop" : 1666593111526,
+          "duration" : 21256
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку Оплата. Страхователь является застрахованным. Страховая сумма 100000",
+        "uid" : "f7aa164085ae58e0",
+        "parentUid" : "3aac717da7f5b2bfee3245a2a48d5e5a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666593120143,
+          "stop" : 1666593134542,
+          "duration" : 14399
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку Оплата. Страхователь не является застрахованным. Страховая сумма 100000.Застрахованный имеет паспорт",
+        "uid" : "6ff3480eb415af06",
+        "parentUid" : "3aac717da7f5b2bfee3245a2a48d5e5a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666593141416,
+          "stop" : 1666593163371,
+          "duration" : 21955
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку Оплата. Страхователь не является застрахованным. Страховая сумма 100000.Застрахованный не имеет паспорт",
+        "uid" : "c84219f5a1e6fbd2",
+        "parentUid" : "3aac717da7f5b2bfee3245a2a48d5e5a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666593169804,
+          "stop" : 1666593192543,
+          "duration" : 22739
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку Оплата. Страхователь является застрахованным. Страховая сумма 500000Не заполнено ни одно поле.",
+        "uid" : "99ba633f04b894c3",
+        "parentUid" : "3aac717da7f5b2bfee3245a2a48d5e5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666593199040,
+          "stop" : 1666593206816,
+          "duration" : 7776
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку Оплата. Страхователь является застрахованным. Страховая сумма 500000Не заполнено 1 поле",
+        "uid" : "ff0015197739814e",
+        "parentUid" : "3aac717da7f5b2bfee3245a2a48d5e5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666593214725,
+          "stop" : 1666593223062,
+          "duration" : 8337
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3aac717da7f5b2bfee3245a2a48d5e5a"
+    } ],
+    "uid" : "4c0e9cb4210f607d23135f6226f1112f"
+  } ]
+}

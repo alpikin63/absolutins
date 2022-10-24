@@ -1,0 +1,4 @@
+[[32mINFO[0m] 2022-10-24 09:33:31 ====== WebDriver manager ======
+[[32mINFO[0m] 2022-10-24 09:33:32 Current google-chrome version is 106.0.5249
+[[32mINFO[0m] 2022-10-24 09:33:32 Get LATEST chromedriver version for 106.0.5249 google-chrome
+[[32mINFO[0m] 2022-10-24 09:33:33 Driver [C:\Users\alpik\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache

@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "488ce22680d0cf4eb836a71cb5e99381",
+    "name" : "Регрессионное тестирование",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 14
+    }
+  } ]
+}

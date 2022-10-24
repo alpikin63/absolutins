@@ -1,0 +1,464 @@
+{
+  "uid" : "99ba633f04b894c3",
+  "name" : "Переход на вкладку Оплата. Страхователь является застрахованным. Страховая сумма 500000Не заполнено ни одно поле.",
+  "fullName" : "ui.test_form_data.TestCalculateForm#test_open_payment_form_empty_data",
+  "historyId" : "f6043fa50210c412a88cbb818d0da88a",
+  "time" : {
+    "start" : 1666593199040,
+    "stop" : 1666593206816,
+    "duration" : 7776
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "web_browser",
+    "time" : {
+      "start" : 1666593195891,
+      "stop" : 1666593199038,
+      "duration" : 3147
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1666592950527,
+      "stop" : 1666592950884,
+      "duration" : 357
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_policy_purchase_form_go_to_data_tab",
+    "time" : {
+      "start" : 1666593199039,
+      "stop" : 1666593199039,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1666592950886,
+      "stop" : 1666592950886,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_policy_purchase_form",
+    "time" : {
+      "start" : 1666593199038,
+      "stop" : 1666593199038,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход по адресу: \"https://old.absolutins.ru/kupit-strahovoj-polis/strahovanie-zhizni-i-zdorovya/zashchita-ot-virusa/\"",
+      "time" : {
+        "start" : 1666593199205,
+        "stop" : 1666593204895,
+        "duration" : 5690
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбрать чекбокс \"Подтверждаю, что -  Отсутствуют лица, проживающие совместно с Застрахованным, у которых диагностирована коронавирусная инфекция COVID-2019 ( код заболевания по МКБ-10 – В 34.2.)\".",
+      "time" : {
+        "start" : 1666593204895,
+        "stop" : 1666593205611,
+        "duration" : 716
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Нажать кнопку \"Продолжить\".",
+      "time" : {
+        "start" : 1666593205612,
+        "stop" : 1666593205957,
+        "duration" : 345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить форму \"Ввод данных\"",
+      "time" : {
+        "start" : 1666593205958,
+        "stop" : 1666593205959,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполнить поле \"ФИО страхователя\"",
+        "time" : {
+          "start" : 1666593205958,
+          "stop" : 1666593205958,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "None"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле \"Дата рождения страхователя\"",
+        "time" : {
+          "start" : 1666593205958,
+          "stop" : 1666593205958,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "None"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле \"Серия/номер паспорта страхователя\"",
+        "time" : {
+          "start" : 1666593205958,
+          "stop" : 1666593205958,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "None"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле \"Дата выдачи\"",
+        "time" : {
+          "start" : 1666593205959,
+          "stop" : 1666593205959,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "None"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле \"Адрес регистрации\"",
+        "time" : {
+          "start" : 1666593205959,
+          "stop" : 1666593205959,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "None"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле \"Телефон\"",
+        "time" : {
+          "start" : 1666593205959,
+          "stop" : 1666593205959,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "None"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле \"Email\"",
+        "time" : {
+          "start" : 1666593205959,
+          "stop" : 1666593205959,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "None"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "FormData(fio=None, birthday=None, doc_data=None, doc_issue_date=None, registration_address=None, phone=None, email=None, add_person=True, name_insured=None, date_birth_insured=None, id_insured=None, id_dateInsured=None)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 7,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать кнопку \"Перейти к оплате\"",
+      "time" : {
+        "start" : 1666593205959,
+        "stop" : 1666593206682,
+        "duration" : 723
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание прогрузки страницы",
+        "time" : {
+          "start" : 1666593206246,
+          "stop" : 1666593206682,
+          "duration" : 436
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить название текущего шага.",
+      "time" : {
+        "start" : 1666593206682,
+        "stop" : 1666593206816,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Скролл к началу страницы",
+        "time" : {
+          "start" : 1666593206682,
+          "stop" : 1666593206715,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Текущий активный шаг: 2. Ввод данных",
+        "time" : {
+          "start" : 1666593206715,
+          "stop" : 1666593206816,
+          "duration" : 101
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "'2. Ввод данных'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "672618f66691d1e6",
+      "name" : "log",
+      "source" : "672618f66691d1e6.txt",
+      "type" : "text/plain",
+      "size" : 382
+    }, {
+      "uid" : "6800368172f0ef2f",
+      "name" : "stdout",
+      "source" : "6800368172f0ef2f.txt",
+      "type" : "text/plain",
+      "size" : 1
+    }, {
+      "uid" : "e75689dd5291f76e",
+      "name" : "stderr",
+      "source" : "e75689dd5291f76e.txt",
+      "type" : "text/plain",
+      "size" : 271
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "web_browser::0",
+    "time" : {
+      "start" : 1666593206829,
+      "stop" : 1666593211653,
+      "duration" : 4824
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "56f94f64714f6651",
+      "name" : "failure-screenshot",
+      "source" : "56f94f64714f6651.png",
+      "type" : "image/png",
+      "size" : 146303
+    }, {
+      "uid" : "bd51919c3ec1b583",
+      "name" : "js-console-log",
+      "source" : "bd51919c3ec1b583.txt",
+      "type" : "text/plain",
+      "size" : 3470
+    }, {
+      "uid" : "623f54a6f9164ec9",
+      "name" : "driver-log",
+      "source" : "623f54a6f9164ec9.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "subSuite",
+    "value" : "Ввод данных"
+  }, {
+    "name" : "suite",
+    "value" : "Форма покупки полиса"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Регрессионное тестирование"
+  }, {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('web_browser')"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GMLT5VV"
+  }, {
+    "name" : "thread",
+    "value" : "22688-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ui.test_form_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regress", "@pytest.mark.usefixtures('web_browser')" ]
+  },
+  "source" : "99ba633f04b894c3.json",
+  "parameterValues" : [ ]
+}

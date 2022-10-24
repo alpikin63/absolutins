@@ -1,0 +1,26 @@
+[{'level': 'SEVERE',
+  'message': 'javascript 0:0 Uncaught ReferenceError: yaCounter35476730 is not '
+             'defined',
+  'source': 'javascript',
+  'timestamp': 1666592958123},
+ {'level': 'SEVERE',
+  'message': 'https://www.googleadservices.com/pagead/conversion_async.js - '
+             'Failed to load resource: net::ERR_CONNECTION_RESET',
+  'source': 'network',
+  'timestamp': 1666592958487},
+ {'level': 'SEVERE',
+  'message': 'https://google-analytics.bi.owox.com/UA-78424628-1?v=1&_v=j98&a=345814134&t=pageview&_s=1&dl=https%3A%2F%2Fold.absolutins.ru%2Fkupit-strahovoj-polis%2Fstrahovanie-zhizni-i-zdorovya%2Fzashchita-ot-virusa%2F&ul=ru-ru&de=UTF-8&dt=%D0%9A%D1%83%D0%BF%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%BB%D0%B8%D1%81%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%BE%D1%82%20%D0%BA%D0%BE%D1%80%D0%BE%D0%BD%D0%B0%D0%B2%D0%B8%D1%80%D1%83%D1%81%D0%B0%2C%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%BA%D0%B8%20%D0%BE%D1%82%20%D0%BA%D0%BE%D1%80%D0%BE%D0%BD%D0%B0%D0%B2%D0%B8%D1%80%D1%83%D1%81%D0%B0%20%7C%20%D0%90%D0%B1%D1%81%D0%BE%D0%BB%D1%8E%D1%82%20%D0%A1%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5&sd=24-bit&sr=1536x864&vp=1519x708&je=0&_u=YEBAAEABAAAAACAEK~&jid=295284157&gjid=2138123252&cid=2116254082.1666592959&tid=UA-78424628-1&_gid=1367924614.1666592959&_r=1&gtm=2wgaj05R27T44&cd3=0&cd4=1652861&z=374191148 '
+             '- Failed to load resource: the server responded with a status of '
+             '502 ()',
+  'source': 'network',
+  'timestamp': 1666592958871},
+ {'level': 'SEVERE',
+  'message': 'https://stats.g.doubleclick.net/g/collect?v=2&tid=G-0EXGPFVJJ5&cid=2116254082.1666592959&gtm=2oeaj0&aip=1 '
+             '- Failed to load resource: net::ERR_CONNECTION_RESET',
+  'source': 'network',
+  'timestamp': 1666592958871},
+ {'level': 'SEVERE',
+  'message': 'https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j98&tid=UA-78424628-1&cid=2116254082.1666592959&jid=295284157&gjid=2138123252&_gid=1367924614.1666592959&_u=YEBAAEAAAAAAACAEK~&z=1042931617 '
+             '- Failed to load resource: net::ERR_CONNECTION_RESET',
+  'source': 'network',
+  'timestamp': 1666592959298}]

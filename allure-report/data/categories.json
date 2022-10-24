@@ -1,0 +1,85 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 4s, while waiting for:\nbrowser.element(('css selector', '.calc-steps-desktop li.current span')).has text 3. Оплата\n\nReason: AssertionError: actual text: 2. Ввод данных",
+      "children" : [ {
+        "name" : "Переход на вкладку Оплата. Страхователь является застрахованным. Страховая сумма 500000",
+        "uid" : "1a8b0c63a6c6658c",
+        "parentUid" : "3bc3fc03a782c4d0186bed6765f36bde",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666593040708,
+          "stop" : 1666593053765,
+          "duration" : 13057
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку Оплата. Страхователь не является застрахованным. Страховая сумма 500000.Застрахованный имеет паспорт",
+        "uid" : "67324a75a5c67b49",
+        "parentUid" : "3bc3fc03a782c4d0186bed6765f36bde",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666593060417,
+          "stop" : 1666593082426,
+          "duration" : 22009
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку Оплата. Страхователь не является застрахованным. Страховая сумма 500000.Застрахованный не имеет паспорт",
+        "uid" : "53bdae3940d83027",
+        "parentUid" : "3bc3fc03a782c4d0186bed6765f36bde",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666593090270,
+          "stop" : 1666593111526,
+          "duration" : 21256
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку Оплата. Страхователь является застрахованным. Страховая сумма 100000",
+        "uid" : "f7aa164085ae58e0",
+        "parentUid" : "3bc3fc03a782c4d0186bed6765f36bde",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666593120143,
+          "stop" : 1666593134542,
+          "duration" : 14399
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку Оплата. Страхователь не является застрахованным. Страховая сумма 100000.Застрахованный имеет паспорт",
+        "uid" : "6ff3480eb415af06",
+        "parentUid" : "3bc3fc03a782c4d0186bed6765f36bde",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666593141416,
+          "stop" : 1666593163371,
+          "duration" : 21955
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на вкладку Оплата. Страхователь не является застрахованным. Страховая сумма 100000.Застрахованный не имеет паспорт",
+        "uid" : "c84219f5a1e6fbd2",
+        "parentUid" : "3bc3fc03a782c4d0186bed6765f36bde",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666593169804,
+          "stop" : 1666593192543,
+          "duration" : 22739
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3bc3fc03a782c4d0186bed6765f36bde"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

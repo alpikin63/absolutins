@@ -1,0 +1,274 @@
+{
+  "96f1375ade915078a568a590727c5c8e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a76fb19ffd92d8ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666593014312,
+        "stop" : 1666593022666,
+        "duration" : 8354
+      }
+    } ]
+  },
+  "83616dc2b4cc906a7832addf210ec436" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ebd0b8d94b9519ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666592971880,
+        "stop" : 1666592979360,
+        "duration" : 7480
+      }
+    } ]
+  },
+  "09259f076bc611525fd78e800f2a45b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db32c3bfbc407761",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666592956129,
+        "stop" : 1666592962273,
+        "duration" : 6144
+      }
+    } ]
+  },
+  "a38683bf2f127fb42cec6d5a7d23834c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7aa164085ae58e0",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 4s, while waiting for:\nbrowser.element(('css selector', '.calc-steps-desktop li.current span')).has text 3. Оплата\n\nReason: AssertionError: actual text: 2. Ввод данных",
+      "time" : {
+        "start" : 1666593120143,
+        "stop" : 1666593134542,
+        "duration" : 14399
+      }
+    } ]
+  },
+  "660afc9d484e269a34cc16f70eaad6c0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ff3480eb415af06",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 4s, while waiting for:\nbrowser.element(('css selector', '.calc-steps-desktop li.current span')).has text 3. Оплата\n\nReason: AssertionError: actual text: 2. Ввод данных",
+      "time" : {
+        "start" : 1666593141416,
+        "stop" : 1666593163371,
+        "duration" : 21955
+      }
+    } ]
+  },
+  "bd6fb935a688fb1b8c47b0b9d126c04a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a8b0c63a6c6658c",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 4s, while waiting for:\nbrowser.element(('css selector', '.calc-steps-desktop li.current span')).has text 3. Оплата\n\nReason: AssertionError: actual text: 2. Ввод данных",
+      "time" : {
+        "start" : 1666593040708,
+        "stop" : 1666593053765,
+        "duration" : 13057
+      }
+    } ]
+  },
+  "043b024a513f351e5ffd096e078aae04" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53bdae3940d83027",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 4s, while waiting for:\nbrowser.element(('css selector', '.calc-steps-desktop li.current span')).has text 3. Оплата\n\nReason: AssertionError: actual text: 2. Ввод данных",
+      "time" : {
+        "start" : 1666593090270,
+        "stop" : 1666593111526,
+        "duration" : 21256
+      }
+    } ]
+  },
+  "d139d281355db82b6a20f86ff8c6f462" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "67324a75a5c67b49",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 4s, while waiting for:\nbrowser.element(('css selector', '.calc-steps-desktop li.current span')).has text 3. Оплата\n\nReason: AssertionError: actual text: 2. Ввод данных",
+      "time" : {
+        "start" : 1666593060417,
+        "stop" : 1666593082426,
+        "duration" : 22009
+      }
+    } ]
+  },
+  "b63e6305ade37dbe76814436d1fd67eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4116e0f6f1f4dac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666593028478,
+        "stop" : 1666593033954,
+        "duration" : 5476
+      }
+    } ]
+  },
+  "2130fd29f1db2672342aec51feec0fb1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e128fbf1ad7af285",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666593000287,
+        "stop" : 1666593005618,
+        "duration" : 5331
+      }
+    } ]
+  },
+  "f6043fa50210c412a88cbb818d0da88a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99ba633f04b894c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666593199040,
+        "stop" : 1666593206816,
+        "duration" : 7776
+      }
+    } ]
+  },
+  "db06023f64be05d983233726022d69c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15605235563e34e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666592986203,
+        "stop" : 1666592991980,
+        "duration" : 5777
+      }
+    } ]
+  },
+  "85409ca8713f139414c551043639e216" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c84219f5a1e6fbd2",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 4s, while waiting for:\nbrowser.element(('css selector', '.calc-steps-desktop li.current span')).has text 3. Оплата\n\nReason: AssertionError: actual text: 2. Ввод данных",
+      "time" : {
+        "start" : 1666593169804,
+        "stop" : 1666593192543,
+        "duration" : 22739
+      }
+    } ]
+  },
+  "8497c9380d803a567703b6148db81683" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff0015197739814e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666593214725,
+        "stop" : 1666593223062,
+        "duration" : 8337
+      }
+    } ]
+  }
+}

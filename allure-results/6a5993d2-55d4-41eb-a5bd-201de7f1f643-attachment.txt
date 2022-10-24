@@ -1,0 +1,4 @@
+[WDM] - ====== WebDriver manager ======
+[WDM] - Current google-chrome version is 106.0.5249
+[WDM] - Get LATEST chromedriver version for 106.0.5249 google-chrome
+[WDM] - Driver [C:\Users\alpik\.wdm\drivers\chromedriver\win32\106.0.5249.61\chromedriver.exe] found in cache

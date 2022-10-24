@@ -1,0 +1,554 @@
+{
+  "uid" : "ff0015197739814e",
+  "name" : "Переход на вкладку Оплата. Страхователь является застрахованным. Страховая сумма 500000Не заполнено 1 поле",
+  "fullName" : "ui.test_form_data.TestCalculateForm#test_open_payment_form_one_empty_field",
+  "historyId" : "8497c9380d803a567703b6148db81683",
+  "time" : {
+    "start" : 1666593214725,
+    "stop" : 1666593223062,
+    "duration" : 8337
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "web_browser",
+    "time" : {
+      "start" : 1666593211661,
+      "stop" : 1666593214723,
+      "duration" : 3062
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_policy_purchase_form",
+    "time" : {
+      "start" : 1666593214723,
+      "stop" : 1666593214724,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1666592950527,
+      "stop" : 1666592950884,
+      "duration" : 357
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1666592950886,
+      "stop" : 1666592950886,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_policy_purchase_form_go_to_data_tab",
+    "time" : {
+      "start" : 1666593214724,
+      "stop" : 1666593214724,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход по адресу: \"https://old.absolutins.ru/kupit-strahovoj-polis/strahovanie-zhizni-i-zdorovya/zashchita-ot-virusa/\"",
+      "time" : {
+        "start" : 1666593214974,
+        "stop" : 1666593219839,
+        "duration" : 4865
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбрать чекбокс \"Подтверждаю, что -  Отсутствуют лица, проживающие совместно с Застрахованным, у которых диагностирована коронавирусная инфекция COVID-2019 ( код заболевания по МКБ-10 – В 34.2.)\".",
+      "time" : {
+        "start" : 1666593219839,
+        "stop" : 1666593220529,
+        "duration" : 690
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Нажать кнопку \"Продолжить\".",
+      "time" : {
+        "start" : 1666593220529,
+        "stop" : 1666593220996,
+        "duration" : 467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить форму \"Ввод данных\"",
+      "time" : {
+        "start" : 1666593220997,
+        "stop" : 1666593222424,
+        "duration" : 1427
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполнить поле \"ФИО страхователя\"",
+        "time" : {
+          "start" : 1666593220997,
+          "stop" : 1666593221537,
+          "duration" : 540
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввести значение: Абрамова Нина Тимофеевна",
+          "time" : {
+            "start" : 1666593220997,
+            "stop" : 1666593221537,
+            "duration" : 540
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "'Абрамова Нина Тимофеевна'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле \"Дата рождения страхователя\"",
+        "time" : {
+          "start" : 1666593221537,
+          "stop" : 1666593221744,
+          "duration" : 207
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввести значение: 24.12.1986",
+          "time" : {
+            "start" : 1666593221538,
+            "stop" : 1666593221744,
+            "duration" : 206
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "'24.12.1986'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле \"Серия/номер паспорта страхователя\"",
+        "time" : {
+          "start" : 1666593221745,
+          "stop" : 1666593221781,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввести значение: 3130-395267",
+          "time" : {
+            "start" : 1666593221745,
+            "stop" : 1666593221781,
+            "duration" : 36
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "'3130-395267'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле \"Дата выдачи\"",
+        "time" : {
+          "start" : 1666593221781,
+          "stop" : 1666593221846,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввести значение: 23.05.2012",
+          "time" : {
+            "start" : 1666593221781,
+            "stop" : 1666593221846,
+            "duration" : 65
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "'23.05.2012'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле \"Адрес регистрации\"",
+        "time" : {
+          "start" : 1666593221846,
+          "stop" : 1666593222191,
+          "duration" : 345
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввести значение: г. Кырен, пер. Моховой, д. 3/7, 926078",
+          "time" : {
+            "start" : 1666593221846,
+            "stop" : 1666593222191,
+            "duration" : 345
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "'г. Кырен, пер. Моховой, д. 3/7, 926078'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле \"Телефон\"",
+        "time" : {
+          "start" : 1666593222191,
+          "stop" : 1666593222423,
+          "duration" : 232
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввести значение: +7(882)-581-52-55",
+          "time" : {
+            "start" : 1666593222191,
+            "stop" : 1666593222423,
+            "duration" : 232
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "'+7(882)-581-52-55'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнить поле \"Email\"",
+        "time" : {
+          "start" : 1666593222423,
+          "stop" : 1666593222424,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "None"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "FormData(fio='Абрамова Нина Тимофеевна', birthday='24.12.1986', doc_data='3130-395267', doc_issue_date='23.05.2012', registration_address='г. Кырен, пер. Моховой, д. 3/7, 926078', phone='+7(882)-581-52-55', email=None, add_person=True, name_insured=None, date_birth_insured=None, id_insured=None, id_dateInsured=None)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 13,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать кнопку \"Перейти к оплате\"",
+      "time" : {
+        "start" : 1666593222424,
+        "stop" : 1666593222981,
+        "duration" : 557
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание прогрузки страницы",
+        "time" : {
+          "start" : 1666593222591,
+          "stop" : 1666593222980,
+          "duration" : 389
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить название текущего шага.",
+      "time" : {
+        "start" : 1666593222981,
+        "stop" : 1666593223061,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Скролл к началу страницы",
+        "time" : {
+          "start" : 1666593222981,
+          "stop" : 1666593222997,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Текущий активный шаг: 2. Ввод данных",
+        "time" : {
+          "start" : 1666593222997,
+          "stop" : 1666593223061,
+          "duration" : 64
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "'2. Ввод данных'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "dd4923304497a6be",
+      "name" : "log",
+      "source" : "dd4923304497a6be.txt",
+      "type" : "text/plain",
+      "size" : 382
+    }, {
+      "uid" : "15c8721a418678cc",
+      "name" : "stdout",
+      "source" : "15c8721a418678cc.txt",
+      "type" : "text/plain",
+      "size" : 1
+    }, {
+      "uid" : "3d9b53a48723be3f",
+      "name" : "stderr",
+      "source" : "3d9b53a48723be3f.txt",
+      "type" : "text/plain",
+      "size" : 271
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 22,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "web_browser::0",
+    "time" : {
+      "start" : 1666593223065,
+      "stop" : 1666593226284,
+      "duration" : 3219
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "442d561b00ce44d8",
+      "name" : "failure-screenshot",
+      "source" : "442d561b00ce44d8.png",
+      "type" : "image/png",
+      "size" : 142715
+    }, {
+      "uid" : "a9631384bb7b0f10",
+      "name" : "js-console-log",
+      "source" : "a9631384bb7b0f10.txt",
+      "type" : "text/plain",
+      "size" : 4683
+    }, {
+      "uid" : "821cac68e63df7f6",
+      "name" : "driver-log",
+      "source" : "821cac68e63df7f6.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "subSuite",
+    "value" : "Ввод данных"
+  }, {
+    "name" : "suite",
+    "value" : "Форма покупки полиса"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Регрессионное тестирование"
+  }, {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('web_browser')"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GMLT5VV"
+  }, {
+    "name" : "thread",
+    "value" : "22688-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ui.test_form_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regress", "@pytest.mark.usefixtures('web_browser')" ]
+  },
+  "source" : "ff0015197739814e.json",
+  "parameterValues" : [ ]
+}
